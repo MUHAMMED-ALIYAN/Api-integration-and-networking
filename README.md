@@ -1,16 +1,24 @@
-# my_app
+# 📱 Flutter API Integration Demo
 
-A new Flutter project.
+This project demonstrates how to work with **REST APIs** in Flutter using the `http` package.  
+It covers fetching data, parsing JSON, displaying results in UI, and handling errors gracefully.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+1. **HTTP Requests and JSON Parsing**
+   - Uses `http` package to send requests to [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).
+   - Parses JSON response into Dart objects.
+   - Displays data in a `ListView`.
 
-A few resources to get you started if this is your first Flutter project:
+2. **User Profile Screen**
+   - Fetches user details (name, email, profile picture) from API.
+   - Displays them with a clean, modern UI.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Error Handling & Loading Indicators**
+   - Shows a loading spinner (`CircularProgressIndicator`) while fetching data.
+   - Handles API errors and shows user-friendly error messages.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+
